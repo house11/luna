@@ -6,11 +6,11 @@ class Luna {
 
   
   public static void main(String args[]){
-    double pesoTerra = 75,pesoLuna=0;
+    double pesoTerra = 75, pesoLuna=0.0;
   
-    pesoLuna= (pesoTerra *17)/100;
+    pesoLuna = (pesoTerra *17)/100;
     
-    System.println("Una persona che sulla terra pesa kg"+ pesoTerra+" sulla luna pesa "+ pesoLuna);
+    System.out.println("Una persona che sulla terra pesa kg"+ pesoTerra+" sulla luna pesa "+ pesoLuna );
   
   }
   
