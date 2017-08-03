@@ -9,7 +9,7 @@ class Pollice{
 	int a=10;
 		
 
-		for(int i =0 ; i<101 ; i++){
+		for(int i =1 ; i<=100 ; i++){
 
 			System.out.println( i + " m    equivale a : "+(pollici*i));
 			if(i==a){	a=a+10;	System.out.println(); }
